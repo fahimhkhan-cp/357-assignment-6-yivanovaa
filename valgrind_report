@@ -1,0 +1,28 @@
+yivanova@unix3:/home/yivanova/github-classroom/fahimhkhan-cp/357-assignment-6-yivanovaa $ valgrind ./a county_demographics.csv percent_fields.ops
+==21826== Memcheck, a memory error detector
+==21826== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21826== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==21826== Command: ./a county_demographics.csv percent_fields.ops
+==21826== 
+Invalid formating at line 2.
+3143 records loaded
+2014 Education.Bachelor's Degree or Higher percentage: 28.920853
+2014 Education.High School or Higher percentage: 85.940155
+2014 Ethnicities.American Indian and Alaska Native Alone percentage: 1.243223
+2014 Ethnicities.Asian Alone percentage: 5.440320
+2014 Ethnicities.Black Alone percentage: 13.223230
+2014 Ethnicities.Hispanic or Latino percentage: 17.370413
+2014 Ethnicities.Native Hawaiian and Other Pacific Islander Alone percentage: 0.231546
+2014 Ethnicities.Two or More Races percentage: 2.506221
+2014 Ethnicities.White Alone percentage: 77.357849
+2014 Ethnicities.White Alone, not Hispanic or Latino percentage: 62.055363
+2014 Income.Persons Below Poverty Level percentage: 15.366277
+==21826== 
+==21826== HEAP SUMMARY:
+==21826==     in use at exit: 0 bytes in 0 blocks
+==21826==   total heap usage: 3 allocs, 3 frees, 830,888 bytes allocated
+==21826== 
+==21826== All heap blocks were freed -- no leaks are possible
+==21826== 
+==21826== For lists of detected and suppressed errors, rerun with: -s
+==21826== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
